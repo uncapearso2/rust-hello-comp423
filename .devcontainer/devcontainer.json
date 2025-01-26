@@ -1,0 +1,11 @@
+{
+    "name": "COMP423 Course Notes",
+    "image": "mcr.microsoft.com/vscode/devcontainers/rust:latest",
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": ["rust-lang.rust-analyzer"]
+      }
+    },
+    "postCreateCommand": "cargo new hello-comp-423 --vcs none --bin"
+  }
